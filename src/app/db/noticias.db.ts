@@ -19,3 +19,5 @@ export const NOTICIAS: INoticia[] = [
   }
   
 ]
+
+export const ultimoId = 2

@@ -1,0 +1,13 @@
+article {
+    padding: 15px;
+    border: 1px solid grey;
+}
+
+figure {
+    max-width: 300px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

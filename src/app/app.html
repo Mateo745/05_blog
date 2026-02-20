@@ -2,7 +2,7 @@
     <h1>Mi blog</h1>
 </header>
 <main>
-    <app-editor></app-editor>
+    <app-editor (PostEmit)="publicarNoticia($event)"></app-editor>
     <app-blog [misNoticias]="arrayNoticias"></app-blog>
 </main>
 <footer>

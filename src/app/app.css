@@ -1,4 +1,13 @@
 main {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+app-editor {
+    width: 30%;
+}
+
+app-blog {
+    width: 60%;
 }

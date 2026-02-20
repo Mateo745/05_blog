@@ -1,5 +1,5 @@
 export interface INoticia {
-    id:      number;
+    id?:     number;
     titulo:  string;
     imagen:  string;
     caption: string;
