@@ -1,13 +1,31 @@
-article {
-    padding: 15px;
-    border: 1px solid grey;
-}
 
-figure {
-    max-width: 300px;
+
+.card-image {
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    display: block;
+    position: relative;
 }
 
 img {
     width: 100%;
     height: auto;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 10px;
+    left:  10px;
+    background-color: rgba(0, 0, 0, 0.705);
+    font-size: smaller;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fecha {
+    font-size: x-small;
+    margin-bottom:  20px;
 }

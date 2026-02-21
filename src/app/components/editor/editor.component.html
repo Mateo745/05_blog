@@ -1,18 +1,16 @@
-<h2>Nueva Noticia</h2>
-<div>
-    <label for="titulo">Título</label>
-    <input type="text" id="titulo" [(ngModel)]="newPost.titulo">
-</div>
-<div>
-    <label for="noticia">Noticia</label>
-    <input type="text" id="noticia" [(ngModel)]="newPost.noticia">
-</div>
-<div>
-    <label for="imagen">URL de Imagen</label>
-    <input type="text" id="imagen" [(ngModel)]="newPost.imagen">
-</div>
-<div>
-    <label for="caption">Pie de imagen</label>
-    <input type="text" id="caption" [(ngModel)]="newPost.caption">
-</div>
-<button (click)="publicarNoticia()">Publicar</button>
+<section class="card">
+    <h2>Nueva Noticia</h2>
+    
+    <div class="form-container">
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" [(ngModel)]="newPost.titulo">
+        <label for="noticia">Noticia</label>
+        <input type="text" id="noticia" [(ngModel)]="newPost.noticia">
+        <label for="imagen">URL de Imagen</label>
+        <input type="text" id="imagen" [(ngModel)]="newPost.imagen">
+        <label for="caption">Pie de imagen</label>
+        <input type="text" id="caption" [(ngModel)]="newPost.caption">
+        <button class="btn-blue"(click)="publicarNoticia()">Publicar</button>
+    </div>
+</section>
+    

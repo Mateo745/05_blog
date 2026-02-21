@@ -2,10 +2,18 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: var(--fondo)
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    
 }
 
 app-editor {
     width: 30%;
+    margin: 10px 20px;
 }
 
 app-blog {

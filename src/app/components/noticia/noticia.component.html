@@ -1,9 +1,9 @@
-<article>
+<article class="card">
+    <figure class="card-image">
+        <img [src]="miNoticia()?.imagen" [alt]="miNoticia()?.caption">
+        <figcaption>{{miNoticia()?.caption}}</figcaption>
+    </figure>
+    <span class="fecha">{{miNoticia()?.fecha}}</span>
     <h3>{{ miNoticia()?.titulo}}</h3>
     <p>{{miNoticia()?.noticia}}</p>
-    <figure>
-        <img [src]="miNoticia()?.imagen" [alt]="miNoticia()?.caption">
-    </figure>
-    <figcaption>{{miNoticia()?.caption}}</figcaption>
-    <span>{{miNoticia()?.fecha}}</span>
 </article>

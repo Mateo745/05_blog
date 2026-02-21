@@ -1,9 +1,9 @@
 
-<div class="container">
+<section>
     <h2>Noticias publicadas</h2>
-    <section>
+    <article>
     @for( noticia of misNoticias(); track noticia.id) {
     <app-noticia [miNoticia]="noticia"></app-noticia>
     }
-    </section>
-</div>
+    </article>
+</section>
