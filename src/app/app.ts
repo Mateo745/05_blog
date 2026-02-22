@@ -17,7 +17,7 @@ export class App {
 
   publicarNoticia(event: INoticia) {
     this.id++;
-    event.id =this.id;
+    event.id = this.id;
     this.arrayNoticias.push(event);
   }
 }

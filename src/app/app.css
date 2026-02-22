@@ -1,21 +1,45 @@
-main {
+.container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    background-color: var(--fondo)
+    gap:60px;
+    margin:30px;
+    background-color: var(--fondo);
+    min-height: 100vh;
 }
 
 header {
-    padding: 20px;
-    border-bottom: 1px solid lightgray;
-    
+    background-color: white;
+    padding: 10px 40px;
+    border-bottom: 1px solid var(--borde);
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    img {
+        width: 100%;
+    }
+}
+
+
+
+footer {
+    background-color: white;
+    padding: 20px 30px;
+    border-top: 1px solid var(--borde);
+    position: sticky;
+    bottom: 0;
+    text-align: center;
 }
 
 app-editor {
     width: 30%;
-    margin: 10px 20px;
+    margin-top: 10px;
+    width: 300px;
 }
 
 app-blog {
-    width: 60%;
+    width: 70%;
 }

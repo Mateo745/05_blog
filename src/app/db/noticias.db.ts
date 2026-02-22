@@ -3,19 +3,19 @@ import { INoticia } from "../interfaces/inoticia.interface";
 export const NOTICIAS: INoticia[] = [
   {
     id: 1,
-    titulo: "Inicio del blog con la primera noticia.",
-    imagen: "https://hcchotels2019.webs3.mirai.es/files/Sagrada-Familia-Barcelona.jpg",
-    caption: "Sagrada Familia, Barcelona",
-    noticia: "Esta es la primera noticia de este nuevo y fantástico blog creado con Angular.",
+    titulo: "El corazón del Imperio Maya",
+    imagen: "https://www.worldhistory.org/uploads/images/3048.jpg",
+    caption: "Chichén Itzá, México",
+    noticia: "Símbolo icónico de la civilización maya, reconocido como Patrimonio de la Humanidad y una de las Nuevas Siete Maravillas del Mundo.",
     fecha: new Date("2026-02-15T12:30:00Z")
   },
   {
     id: 2,
-    titulo: "La tapa estaba buena, pero,...",
-    imagen: "https://live.staticflickr.com/3064/2778702227_27c09bb369_b.jpg",
-    caption: "Puerta de Alcalá, Madrid",
-    noticia: "Ayer salimos de tapas los compañeros de trabajo, Estuvimos en vario sitios, ente ellos el bar que hizo la tapa ganadora de la última ruta de la tapa de mi ciudad. Tras tomar esa tapa ganadora, mi compañera Rebeca, deduzco que por el efecto de los varios vinos que habíamos tomado, nos dedicó un frase que va quedar grabada de por vida entre las frases \"célebres\" de la empresa: Está buena, pero tampoco es para \"tirar patatas\". ¿Os imagináis una mascletá en la que se tiren patatas en lugar de cohetes?",
-    fecha: new Date("2026-02-15T12:32:00Z")
+    titulo: "Sorprendente Iguazú",
+    imagen: "https://academiaplay.net/wp-content/uploads/2018/08/web-saltos-3.jpg",
+    caption: "Cataratas de Iguazú, Argentina - Brasil",
+    noticia: "La mejor época para visitar las Cataratas del Iguazú es el otoño (abril-junio) o la primavera (septiembre-noviembre), ya que combinan un clima agradable con menor afluencia de turistas y buen caudal de agua, ideal para disfrutar de las pasarelas sin tanto calor ni multitudes, aunque el verano (diciembre-febrero) ofrece el mayor volumen de agua a costa de mucho calor y más gente.  ",
+    fecha: new Date("2026-02-16T20:32:00Z")
   }
   
 ]

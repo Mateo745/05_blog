@@ -1,10 +1,12 @@
 <header>
-    <h1>Mi blog</h1>
+    <figure class="logo">
+        <img src="logos/logo.png" alt="logo blog de viajes">
+    </figure>
 </header>
-<main>
+<main class="container">
     <app-editor (PostEmit)="publicarNoticia($event)"></app-editor>
     <app-blog [misNoticias]="arrayNoticias"></app-blog>
 </main>
 <footer>
-
+&copy; deviajes.blog 2026
 </footer>

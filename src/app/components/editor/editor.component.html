@@ -1,16 +1,22 @@
 <section class="card">
-    <h2>Nueva Noticia</h2>
+    <div class="titulo">
+        <figure class="icon-container">
+            <img class="icon" src="icons/add.svg" alt="icono añadir">
+        </figure> 
+        <h2>Nueva Noticia</h2>
+    </div>
     
     <div class="form-container">
         <label for="titulo">Título</label>
-        <input type="text" id="titulo" [(ngModel)]="newPost.titulo">
+        <input type="text" id="titulo" placeholder="Título del post" [(ngModel)]="newPost.titulo">
         <label for="noticia">Noticia</label>
-        <input type="text" id="noticia" [(ngModel)]="newPost.noticia">
+        <textarea id="noticia" placeholder="Escribe sobre tu viaje" [(ngModel)]="newPost.noticia"rows="5">Noticia</textarea>
         <label for="imagen">URL de Imagen</label>
-        <input type="text" id="imagen" [(ngModel)]="newPost.imagen">
+        <input type="text" id="imagen" placeholder="Pega la URl de tu imagen" [(ngModel)]="newPost.imagen">
         <label for="caption">Pie de imagen</label>
-        <input type="text" id="caption" [(ngModel)]="newPost.caption">
+        <input type="text" id="caption" placeholder="Descripción corta de la imagen" [(ngModel)]="newPost.caption">
         <button class="btn-blue"(click)="publicarNoticia()">Publicar</button>
+        <p></p>
     </div>
 </section>
     

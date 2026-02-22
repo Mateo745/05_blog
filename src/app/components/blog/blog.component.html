@@ -1,9 +1,14 @@
 
-<section>
-    <h2>Noticias publicadas</h2>
-    <article>
+<section class="blog-container">
+    <div class="titulo">
+        <figure class="icon-container">
+            <img class="icon"src="icons/compass.svg" alt="icono de brujula">   
+        </figure>
+    <h1>Noticias publicadas</h1>
+    </div>
+    <div class="blog-content">
     @for( noticia of misNoticias(); track noticia.id) {
     <app-noticia [miNoticia]="noticia"></app-noticia>
     }
-    </article>
+    </div>
 </section>

@@ -3,7 +3,6 @@
 .card-image {
     width: calc(100% + 20px);
     margin-left: -10px;
-    margin-right: -10px;
     margin-top: -10px;
     display: block;
     position: relative;
@@ -12,6 +11,7 @@
 img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 figcaption {
@@ -27,5 +27,17 @@ figcaption {
 
 .fecha {
     font-size: x-small;
-    margin-bottom:  20px;
+    color: var(--texto);
+}
+
+.titulo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size:medium
+}
+
+.noticia {
+    font-size: small;
+    color: var(--texto);
+    line-height: 1.6;
 }
