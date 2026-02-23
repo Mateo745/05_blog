@@ -30,10 +30,11 @@ figcaption {
     color: var(--texto);
 }
 
-.titulo {
+.titular {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size:medium
+    font-size:medium;
+    padding: 5px 0px;
 }
 
 .noticia {

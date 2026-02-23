@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, computed, input } from '@angular/core';
 import { INoticia } from '../../interfaces/inoticia.interface';
 import { NoticiaComponent } from "../noticia/noticia.component";
 
@@ -9,5 +9,5 @@ import { NoticiaComponent } from "../noticia/noticia.component";
   styleUrl: './blog.component.css',
 })
 export class BlogComponent {
-  misNoticias = input<INoticia[]>([])
+  misNoticias = input<INoticia[]>([]);
 }

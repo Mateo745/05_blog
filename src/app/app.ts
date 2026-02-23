@@ -1,5 +1,4 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { BlogComponent } from "./components/blog/blog.component";
 import { INoticia } from './interfaces/inoticia.interface';
 import { NOTICIAS, ultimoId } from './db/noticias.db';

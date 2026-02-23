@@ -6,7 +6,7 @@ export const NOTICIAS: INoticia[] = [
     titulo: "El corazón del Imperio Maya",
     imagen: "https://www.worldhistory.org/uploads/images/3048.jpg",
     caption: "Chichén Itzá, México",
-    noticia: "Símbolo icónico de la civilización maya, reconocido como Patrimonio de la Humanidad y una de las Nuevas Siete Maravillas del Mundo.",
+    noticia: "Símbolo icónico de la poderosa civilización maya, reconocido como Patrimonio de la Humanidad y una de las Nuevas Siete Maravillas del Mundo. Durante los equinoccios de primavera y otoño, el sol crea una sombra en la escalinata que simula el descenso de la serpiente emplumada (Kukulkán).",
     fecha: new Date("2026-02-15T12:30:00Z")
   },
   {

@@ -7,7 +7,7 @@
     <h1>Noticias publicadas</h1>
     </div>
     <div class="blog-content">
-    @for( noticia of misNoticias(); track noticia.id) {
+    @for ( noticia of misNoticias(); track noticia.id ) {
     <app-noticia [miNoticia]="noticia"></app-noticia>
     }
     </div>
